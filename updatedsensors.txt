@@ -1,0 +1,4 @@
+Sensors added :
+
+1. DHT 22
+2. LM 35
