@@ -92,7 +92,7 @@ delay (2000);
   
  float h = dht.readHumidity();
   float t = dht.readTemperature(true);
- c=(t-32)*0.555;
+ 
  if (isnan(h) || isnan(t)) {
     Serial.println("Failed to read from DHT sensor!");
     return;
