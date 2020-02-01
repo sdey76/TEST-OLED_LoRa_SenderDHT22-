@@ -97,7 +97,7 @@ delay (2000);
     Serial.println("Failed to read from DHT sensor!");
     return;
   }
-
+c=(t-32)*0.555; // convert to degree centigrade
   // send packet
   LoRa.beginPacket();
   
